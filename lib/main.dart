@@ -32,7 +32,7 @@ class _MainScreenState extends State<MainScreen> {
         unselectedItemColor: Colors.white60,
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
-          BottomNavigationBarItem(icon: Icon(Icons.videocam), label: 'Movie'),
+          BottomNavigationBarItem(icon: Icon(Icons.hotel), label: 'Hotel'),
           BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profile'),
         ],
       ),

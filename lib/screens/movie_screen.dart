@@ -11,7 +11,7 @@ class MovieScreen extends StatelessWidget {
         backgroundColor: Colors.white,
         elevation: 0,
         centerTitle: true,
-        title: const Text('PRAKTIKUM PAB',
+        title: const Text('TravelGo',
             style: TextStyle(fontWeight: FontWeight.bold, color: Colors.black87, fontSize: 20)),
       ),
       body: Padding(
@@ -20,7 +20,7 @@ class MovieScreen extends StatelessWidget {
           children: [
             ClipRRect(
               borderRadius: BorderRadius.circular(12),
-              child: Image.asset('assets/mpofa.jpg',
+              child: Image.asset('assets/DH.jpg',
                   width: double.infinity,
                   height: MediaQuery.of(context).size.height * 0.65,
                   fit: BoxFit.fitWidth),
@@ -34,7 +34,7 @@ class MovieScreen extends StatelessWidget {
                 style: OutlinedButton.styleFrom(
                   shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
                 ),
-                child: const Text('Play',
+                child: const Text('Book Now',
                     style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.black87)),
               ),
             ),
